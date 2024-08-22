@@ -170,8 +170,8 @@ body {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        width: 20px;
-        height: 20px;
+        width: 16px;
+        height: 16px;
         border: 2px solid #ccc;
         border-radius: 50%;
         cursor: pointer;
@@ -189,9 +189,9 @@ body {
       
       .remember-forgot input[type="checkbox"]:checked::before {
         content: '';
-        width: 10px;
-        height: 10px;
-        background-color: #000000;
+        width: 8px;
+        height: 8px;
+        background-color: #111111;
         border-radius: 50%;
         display: block;
       }
