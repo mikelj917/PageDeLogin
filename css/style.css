@@ -46,7 +46,7 @@ body {
     border-radius: 40px;
     font-size: 16px;
     border: 2px solid rgba(255, 255, 255, .2);
-    padding: 20px 45px 20px 20px;
+    padding: 20px 20px 20px 45px;
     color: #fff;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .input-box i {
     position: absolute;
-    right: 20px;
+    right: 300px;
     top: 50%;
     transform: translateY(-50%);
 }
