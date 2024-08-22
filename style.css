@@ -123,9 +123,8 @@ body {
         height: 490px;
         width: 420px;
         color: #fff;
-        padding: 50px 46px;
-        margin-bottom: 100px;
-        margin-top: 55px;
+        position: relative;
+        top: -60px;
     }
 
     .container h1 {
@@ -150,6 +149,10 @@ body {
         color: #fff;
     }
 
+.container .remember-forgot {
+    margin-bottom: 50px;
+}
+
     .remember-forgot label input {
         accent-color: #fff;
         margin-right: 3px;
@@ -157,6 +160,33 @@ body {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
     }
+
+    .remember-forgot input[type="checkbox"] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border: 2px solid #e4e4e4;
+        border-radius: 3px;
+        position: relative;
+        cursor: pointer;
+        outline: none;
+      }
+      
+      .remember-forgot input[type="checkbox"]:checked {
+        background-color: #ffffff;
+        border-color: #e4e4e4;
+      }
+      
+      .remember-forgot input[type="checkbox"]:checked::before {
+        content: '✔';
+        color: rgb(70, 70, 70);
+        position: absolute;
+        left: 0px;
+        top: -4px;
+        font-size: 14px;
+      }
 
     .container .btn {
         margin-top: 25px;
