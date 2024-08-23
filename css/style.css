@@ -56,7 +56,7 @@ body {
 
 .input-box i {
     position: absolute;
-    right: 300px;
+    left: 20px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -95,6 +95,7 @@ body {
     color: #333;
     font-weight: 600;
 }
+
 .btn:hover {
     background-color: #d3d3d3
 }
@@ -144,14 +145,20 @@ body {
         outline: none;
         border-radius: 40px;
         font-size: 16px;
-        border: 2px solid rgba(255, 255, 255, .6);
-        padding: 20px 45px 20px 20px;
+        border: 2px solid rgba(255, 255, 255, .2);
+        padding: 20px 20px 20px 45px;
         color: #fff;
     }
 
-.container .remember-forgot {
-    margin-bottom: 50px;
-}
+    .input-box i {
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .container .remember-forgot {
+        margin-bottom: 50px;
+    }
 
     .remember-forgot label input {
         accent-color: #fff;
@@ -200,9 +207,7 @@ body {
         margin-top: 25px;
         height: 55px;
     }
-}
 
-@media (max-width: 600px) {
     .remember-forgot label, a {
         font-size: 15px;
     }
