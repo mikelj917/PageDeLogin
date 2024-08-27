@@ -37,6 +37,10 @@ body{
     margin: 40px 0px;
 }
 
+.container .input-box p {
+    font-weight: 600;
+}
+
 .input-box input {
     width: 100%;
     height: 100%;

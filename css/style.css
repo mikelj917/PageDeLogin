@@ -179,7 +179,7 @@ body {
         appearance: none;
         width: 16px;
         height: 16px;
-        border: 2px solid #ccc;
+        border: 2px solid #fff;
         border-radius: 50%;
         cursor: pointer;
         outline: none;
@@ -190,15 +190,15 @@ body {
       }
       
       .remember-forgot input[type="checkbox"]:checked {
-        background-color: #fff;
-        border-color: #e4e4e4;
+        background-color: transparent;
+        border-color: #fff;
       }
       
       .remember-forgot input[type="checkbox"]:checked::before {
         content: '';
         width: 8px;
         height: 8px;
-        background-color: #111111;
+        background-color: #fff;
         border-radius: 50%;
         display: block;
       }
@@ -212,11 +212,20 @@ body {
         font-size: 15px;
     }
 
+    .remember-forgot a {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
     .remember-forgot label input {
         accent-color: #fff;
         margin-right: 3px;
         transform: scale(1.0);
         -webkit-transform: scale(1.0);
         -ms-transform: scale(1.0);
+    }
+
+    .container .register-link p a {
+        text-decoration: underline;
     }
 }
